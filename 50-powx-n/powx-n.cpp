@@ -1,7 +1,7 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        double result=1.0 ;
+        double Result=1.0 ;
         long long N = n; 
         if (N < 0) {
             x = 1.0 / x;
@@ -10,7 +10,7 @@ public:
 
         while (N > 0) {
             if (N % 2 == 1) { 
-                result = result * x;
+                Result = Result * x;
                 N = N - 1;
             } else { 
                 x = x * x;
@@ -18,6 +18,6 @@ public:
             }
         }
 
-        return result;
+        return Result;
     }
 };
