@@ -8,11 +8,11 @@ public:
             temp.push_back(nums[i]);
         }
        }
-       int nz=temp.size();
-       for(int i=0; i<nz; i++){
+       int nonzero=temp.size();
+       for(int i=0; i<nonzero; i++){
         nums[i]= temp[i];
        }
-       for(int i=nz; i<n; i++){
+       for(int i=nonzero; i<n; i++){
         nums[i]=0;
        }
         
