@@ -14,9 +14,10 @@ public:
             }
             if(left<right){
                 swap(nums[left], nums[right]);
-                count++;
+               
                 left++;
                 right--;
+                 count++;
                 
             }
         }
