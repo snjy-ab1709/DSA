@@ -7,7 +7,8 @@ public:
            sqnum[i]=nums[i]*nums[i];
         }
 
-sort(sqnum.begin(), sqnum.end());
-return sqnum;
+    sort(sqnum.begin(), sqnum.end());
+    return sqnum;
     }
 };
+
